@@ -15,14 +15,17 @@ int a;
 int b;
 for (a = 48; a <= 57; a++)
 {
-for (b = 48; b <= a; b++)
+for (b = 49; b <= a; b++)
 {
 if (b > a)
 {
 putchar(a);
 putchar(b);
+if (a != 56 || b != 57)
+{
 putchar(44);
 putchar(32);
+}
 }
 }
 }
