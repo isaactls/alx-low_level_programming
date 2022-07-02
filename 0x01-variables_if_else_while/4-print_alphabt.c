@@ -11,8 +11,8 @@
 int main(void)
 {
 
-char a;
-for (a = a; a <= z; a++)
+int a;
+for (a = 97; a <= 122; a++)
 {
 if (a !0= q && a != e)
 {
