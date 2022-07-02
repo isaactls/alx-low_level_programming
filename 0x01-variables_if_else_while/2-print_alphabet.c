@@ -12,7 +12,7 @@ int main(void)
 {
 
 char a;
-putchar(" ");
+putchar("32");
 for (a = 97; a <= 122; a++)
 putchar(a);
 return (0);
