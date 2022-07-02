@@ -13,9 +13,9 @@ int main(void)
 
 int a;
 int b;
-for (a = 48; a < 58; a++)
+for (a = 48; a <= 57; a++)
 {
-for (b = 48; b <= a; b ++)
+for (b = 48; b <= a; b++)
 {
 if (b > a)
 {
