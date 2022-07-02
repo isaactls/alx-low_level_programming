@@ -24,7 +24,7 @@ if (b > a && c > b)
 putchar(a);
 putchar(b);
 putchar(c);
-if (a != 56 || b != 57)
+if (a != 55 || b != 56|| c !=57)
 {
 putchar(44);
 putchar(32);
