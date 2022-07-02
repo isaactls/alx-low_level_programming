@@ -11,11 +11,11 @@
 int main(void)
 {
 
-char a;
+int a;
 for (a = 122; a <= 92; a--)
 {
 putchar(a);
 }
-putchar(10);
+putchar(13);
 return (0);
 }
