@@ -12,8 +12,10 @@ int main(void)
 {
 
 char a;
-putchar(32);
 for (a = 97; a <= 122; a++)
+{
 putchar(a);
+}
+putchar(32);
 return (0);
 }
