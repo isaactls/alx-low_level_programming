@@ -18,11 +18,12 @@ for (a = 48; a <= 57; a++)
 {
 for (b = 49; b <= 57; b++)
 {
-for (c = 48; c <= 57; c++)
+for (c = 50; c <= 57; c++)
 if (b > a && a > c)
 {
 putchar(a);
 putchar(b);
+putchar(c);
 if (b != 56 || c != 57)
 {
 putchar(44);
