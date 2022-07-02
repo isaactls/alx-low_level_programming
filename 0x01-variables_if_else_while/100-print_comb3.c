@@ -15,7 +15,7 @@ int a;
 int b;
 for (a = 48; a <= 57; a++)
 {
-for (b = 49; b <= a; b++)
+for (b = 49; b <= 57; b++)
 {
 if (b > a)
 {
