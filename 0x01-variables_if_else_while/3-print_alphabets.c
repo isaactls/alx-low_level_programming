@@ -12,12 +12,16 @@ int main(void)
 {
 
 char a;
+char b;
 for (a = 97; a <= 122; a++)
 {
 putchar(a);
 }
 putchar(10);
-char (a = 65; a <= 90; a++)
-putchar(a);
+char (b = 65; b <= 90; b++)
+{
+putchar(b);
+}
+
 return (0);
 }
