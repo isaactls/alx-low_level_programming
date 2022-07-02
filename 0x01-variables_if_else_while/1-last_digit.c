@@ -21,11 +21,11 @@ printf("Last digit of %d is ", n);
 
 a = n % 10;
 if (n > 5)
-printf("is %d and greater than 5\n", a);
+printf(" %d and greater than 5\n", a);
 if (n == 0)
-printf("is 0 and is  0\n");
+printf(" 0 and is  0\n");
 if (n < 6 && n != 6)
-printf("is %d and less than 6 and not 0\n", a);
+printf(" %d and less than 6 and not 0\n", a);
 
 return (0);
 }
