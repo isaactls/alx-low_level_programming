@@ -23,7 +23,7 @@ a = n % 10;
 if (a > 5)
 printf("%d and is greater than 5\n", a);
 if (a == 0)
-printf("0 and is  0\n");
+printf("0 and is 0\n");
 if (a < 6 && a != 0)
 printf("%d and is less than 6 and not 0\n", a);
 
