@@ -16,6 +16,6 @@ for (a = 97; a <= 122; a++)
 {
 putchar(a);
 }
-putchar(32);
+putchar(10);
 return (0);
 }
