@@ -10,11 +10,8 @@ void print_alphabet(void)
 {
 int a;
 for (a = 97; a <= 122; a++)
+{
 _putchar(a);
 }
-int main(void)
-{
-print_alphabet();
-_putchar(10);
-return (0);
+_putchar(10)
 }
