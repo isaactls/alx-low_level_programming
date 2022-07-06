@@ -2,8 +2,9 @@
 /**
  * Print_alphabet - prints the alphabet in lowercase
  *
- * Return: always 0 (seccess)
+ * Return: Always 0 (Seccess)
 */
+
 void print_alphabet(void)
 {
 int a;
