@@ -12,6 +12,6 @@ int b;
 if (a < 0)
 a = n % 10;
 b = '0' + a;
-_putchar(p);
+_putchar(b);
 return (1);
 }
