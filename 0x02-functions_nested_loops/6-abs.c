@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int_abs - entry poitn 
+ * _abs - entry poitn
  * @n: variable
  *
  * Return: 0 (seccess)
