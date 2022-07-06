@@ -12,5 +12,5 @@ if (n < 0)
 n = -n;
 }
 n = n % 10;
-return (n);
+return (double n);
 }
