@@ -2,6 +2,7 @@
 
 /**
  * _islower(int c) - check for lowercase
+ * @ int c - is where the variable to be check
  *
  * return 1 or 0 based on the letter
  **/
