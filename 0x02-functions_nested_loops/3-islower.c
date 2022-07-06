@@ -4,9 +4,7 @@
  * _islower - entry point
  * @c: is where the variable to be check
  *
- * _islower - check for lowercase of characters
- *
- * return: 1 for lower case and 0 based on the letter
+ * Return: 0 or 1
  **/
 int _islower(int c)
 {
