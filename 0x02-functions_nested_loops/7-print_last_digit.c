@@ -11,7 +11,7 @@ int a;
 int b;
 if (a < 0)
 a = n % 10;
-p = '0' + a;
+b = '0' + a;
 _putchar(p);
 return (1);
 }
