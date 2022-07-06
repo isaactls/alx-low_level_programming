@@ -1,18 +1,21 @@
 #include "main.h"
+
 /**
- * print_last_digit - entry poitn
- * @n: variable
+ * print_last_digit - prints last digit of integer input
+ * @n: integer to modify
  *
- * Return: 0 (seccess)
+ * Return: l
  */
+
+
 int print_last_digit(int n)
 {
-int a;
-int b;
-a = n % 10;
-if (a < 0)
-a *= -a;
-b = a + '0';
-_putchar(b);
-return (1);
+	int l, p;
+
+	l = n % 10;
+	if (l <  0)
+		l = -l;
+	p = '0' + l;
+	_putchar(p);
+	return (l);
 }
