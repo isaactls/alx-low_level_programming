@@ -4,7 +4,7 @@
  * _isalpha - entry point
  * @c: variable for character to be checked
  *
- * return: 0 or 1
+ * Return: 0 or 1
  */
 int _isalpha(int c)
 {
