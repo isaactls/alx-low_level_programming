@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * _isdigit -  a function that checks for a digit 0-9
- * @c: input
- * Return: 1 if c is a digit, 0 otherwise
+ * _isdigit -  checks for checks for a digit (0 through 9).
+ * @c: c -  Variable
+ * Return: Always 0.
  */
 int _isdigit(int c)
 {
-	if ((c >= 48) && (c <= 57))
+
+	if (c >= 48 && c <= 57)
+	{
 		return (1);
-	else
-		return (0);
+	}
+	return (0);
 }
