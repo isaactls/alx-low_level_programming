@@ -3,7 +3,7 @@
  * _strlen - show length of string aka array of char
  * @s: varaible of char type
  *
- * return: 1
+ * return:int
  */
 
 int _strlen(char *s)
