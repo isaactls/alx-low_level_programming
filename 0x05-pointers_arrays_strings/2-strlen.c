@@ -1,11 +1,10 @@
-#include<stdio.h>
-/**
- * _strlen - show length of string aka array of char
- * @s: varaible of char type
- *
- * return:int
- */
+#include "holberton.h"
 
+/**
+ * _strlen - lenght of string
+ * @s:char
+ * Return:int
+ */
 int _strlen(char *s)
 {
 	int i;
