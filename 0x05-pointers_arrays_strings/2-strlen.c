@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 /**
  * _strlen - show length of string aka array of char
@@ -11,4 +12,5 @@ int _strlen(char *s)
 char ss[*s];
 
 strlen(ss);
+return(ss);
 }
