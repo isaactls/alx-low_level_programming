@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include "main.h"
 /**
  * _strlen - show length of string aka array of char
  * @s: varaible of char type
  *
- * return: non
+ * return: 1
  */
 
 int _strlen(char *s)
